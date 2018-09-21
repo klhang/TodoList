@@ -1,3 +1,6 @@
+//action creator that returns an object with the type property and playload infomation
+
+
 export const RECEIVE_TODOS = 'RECEIVE_TODOS';
 export const RECEIVE_TODO = 'RECEIVE_TODO';
 
