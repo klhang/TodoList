@@ -8,7 +8,8 @@ class TodoListItem extends React.Component {
   render(){
 
     // const {title} = todo;
-    const title = todo.title;
+    const {todo} = this.props;
+    const title = this.props.todo.title;
     const {id} = todo;
     return (
       <div>
